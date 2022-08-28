@@ -1,8 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import TodoTemplate from './components/TodoTemplate';
+import TodoInsert from './components/TodoInsert';
 
 function App() {
-  return <div>todo앱을만들자</div>;
+  return (
+    <TodoTemplate>
+      <TodoInsert />
+    </TodoTemplate>
+  );
 }
 
 export default App;

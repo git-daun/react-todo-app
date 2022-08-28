@@ -1,0 +1,24 @@
+.TodoTemplate {
+  width: 512px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6rem;
+  border-radius: 4px;
+  //border: 1px solid black;
+  // overflow 속성은 요소의 콘텐츠가 너무 클때 처리법을 지정
+  // wisible(기본), hidden: 잘라내기, scroll:스크롤바생성, auto: 상황에따라
+  overflow: hidden;
+  .app-title {
+    background: #22b8cf;
+    color: white;
+    height: 4rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content {
+    background: white;
+  }
+}
